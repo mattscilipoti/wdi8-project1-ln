@@ -16,5 +16,6 @@ for(var questionIndex = 0; questionIndex < questions.length; questionIndex ++){
     // var answer = eval(question);
     var answer = answers[questionIndex];
     alert(answer);
+  }
 
 // end of loop
