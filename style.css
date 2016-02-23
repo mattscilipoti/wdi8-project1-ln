@@ -1,4 +1,5 @@
 body{
+  align-items: baseline;
   background-color: ;
   text-align: ;
   font-family: ;
@@ -6,16 +7,17 @@ body{
 
 
 h1{
-  color: ;
   text-align: center;
   font-family: Ostrich Sans;
   font-size: 90px;
 }
 
-div{
-  margin:50px;
-  border:1px solid black ;
-  padding:30px;
+.center{
+  margin-left:550px;
+  border:1px solid black;
+  border-radius:20px;
+  border-width:7px ;
+  padding:25px;
   width: 300px;
   height: 500px;
 }
