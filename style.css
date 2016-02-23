@@ -3,22 +3,37 @@ body{
   text-align: ;
   font-family: ;
 }
+
+
 h1{
   color: ;
   text-align: center;
   font-family: Ostrich Sans;
   font-size: 90px;
-
-
 }
+
+
+table{
+  table align: center;
+  border:0;
+  width:0;
+  cellpadding:0;
+  table-align: center;
+  font-family: Ostrich Sans;
+  font-size: 50px;
+}
+
+tr{
+  
+}
+
 p{
-  color:;
-  font-size: ;
-
-
+  text-align: center;
 }
-button{
-  background: ;
-  font-family: ;
 
+
+button{
+  background-position: center;
+  background: ;
+  font-family: Ostrish Sans;
 }
