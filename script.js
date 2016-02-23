@@ -18,4 +18,5 @@ for(var questionIndex = 0; questionIndex < questions.length; questionIndex ++){
     alert(answer);
   }
 
+
 // end of loop
