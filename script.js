@@ -1,22 +1,32 @@
 var add;
 var questions = ["1+1", "2+6", "10+9", "3+7", "PBJ?"];
 var answers = [2, 8, 19, 10, "Peanut Butter and Jelly"];
+var answerButton = document.getElementById("answerButton");
+var questionButton =document.getElementById("questionButton");
 
 
 function add (num1, num2){
     return num1+num2;
 }
 
-// loop thru itmes in questins
-for(var questionIndex = 0; questionIndex < questions.length; questionIndex ++){
+// for(var questionsIndex = 0; questionsIndex < questions.length; questionsIndex ++){
+    var questionsIndex = 0;
+    var question = questions[questionsIndex];
+    // alert(question);
+    var questionTag = document.getElementById ("question")
+    questionTag.textContent = question;
 
-    var question = questions[questionIndex];
+    var answer = answers[questionsIndex];
+    var answerTag = document.getElementById("answer")
+    answerTag.textContent = answer;
+    // prompt(answer);
 
-    prompt(question);
-    // var answer = eval(question);
-    var answer = answers[questionIndex];
-    alert(answer);
-  }
+  // }
 
 
-// end of loop
+
+
+answerButton.addEventListener("click", function(){
+  alert("Here's your anwer!");
+});
+questionButton.addEventListener("click", handle);

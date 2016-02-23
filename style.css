@@ -22,15 +22,16 @@ h1{
   height: 500px;
 }
 
-p{
-  text-align: center;
-  font-family: Ostrich Sans;
-  font-size: 50px;
+.questionButton{
+  margin-left: 650px;
+  font-style: Ostrich San;
+  font-size: 12px;
+
 }
 
-h2{
-  color: ;
-  text-align: center;
-  font-family: Ostrich Sans;
-  font-size: 30px;
+.answerButton{
+  /*margin-right:;*/
+  font-style: Ostrich San;
+  font-size: 12px;
+
 }
