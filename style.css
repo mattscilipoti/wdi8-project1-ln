@@ -45,7 +45,7 @@ font-family: Ostrich Sans;
 
 #question{
 text-align: center;
-font-size: 50px;
+font-size: 45px;
 font-family: Ostrich Sans;
 color: red;
 }
@@ -54,5 +54,13 @@ color: red;
   text-align: center;
   font-size: 50px;
   font-family: Ostrich Sans;
+
+}
+
+#answer{
+  text-align: center;
+  font-size: 45px;
+  font-family: Ostrich Sans;
+  color: red;
 
 }
