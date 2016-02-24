@@ -22,16 +22,16 @@ h1{
   height: 500px;
 }
 
-.questionButton{
-  margin-left: 650px;
+#nextQuestionButton{
+  border-radius: 20px;
   font-style: Ostrich San;
-  font-size: 12px;
+  font-size: 18px;
 
 }
 
-.answerButton{
-  /*margin-right:;*/
+#answerButton{
+  border-radius: 20px;
   font-style: Ostrich San;
-  font-size: 12px;
+  font-size: 18px;
 
 }

@@ -4,8 +4,6 @@ var answers = [2, 8, 19, 10, "Peanut Butter and Jelly"];
 var answerButton = document.getElementById("answerButton");
 var nextQuestionButton =document.getElementById("nextQuestionButton");
 
-
-
 // for(var questionsIndex = 0; questionsIndex < questions.length; questionsIndex ++){
     var questionsIndex = 0;
     displayQuestion(questionsIndex);
@@ -21,12 +19,13 @@ function displayQuestion(questionIndex){
     var answer = answers[questionIndex];
     var answerTag = document.getElementById("answer")
     answerTag.textContent = answer;
-    // prompt(answer);
-
 }
+document.getElementById("answer").style.visibility ="hidden";
+
 
 answerButton.addEventListener("click", function(){
-  alert("Here's your anwer!");
+  alert("Here's your answer!");
+  prompt(answer);
 });
 nextQuestionButton.addEventListener("click", function (){
   questionsIndex ++
