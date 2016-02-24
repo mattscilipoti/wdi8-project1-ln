@@ -18,15 +18,17 @@ function displayQuestion(questionIndex){
 
     var answer = answers[questionIndex];
     var answerTag = document.getElementById("answer")
+    answerTag.style.visibility ="hidden";
     answerTag.textContent = answer;
 }
-document.getElementById("answer").style.visibility ="hidden";
-
 
 answerButton.addEventListener("click", function(){
-  alert("Here's your answer!");
-  prompt(answer);
+  document.getElementById("answer").style.visibility ="visible";
+
+  // alert("Here's your answer!");
+  // prompt(answer);
 });
+
 nextQuestionButton.addEventListener("click", function (){
   questionsIndex ++
   displayQuestion(questionsIndex);

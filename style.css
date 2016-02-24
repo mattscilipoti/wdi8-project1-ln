@@ -13,7 +13,7 @@ h1{
 }
 
 .center{
-  margin-left:550px;
+  margin-left:501px;
   border:1px solid black;
   border-radius:20px;
   border-width:7px ;
@@ -24,14 +24,35 @@ h1{
 
 #nextQuestionButton{
   border-radius: 20px;
-  font-style: Ostrich San;
+  font-style: Ostrich Sans;
   font-size: 18px;
 
 }
 
 #answerButton{
   border-radius: 20px;
-  font-style: Ostrich San;
+  font-style: Ostrich Sans;
   font-size: 18px;
+
+}
+
+#titleQuestion{
+text-align: center;
+font-size: 50px;
+font-family: Ostrich Sans;
+
+}
+
+#question{
+text-align: center;
+font-size: 50px;
+font-family: Ostrich Sans;
+color: red;
+}
+
+#titleAnswer{
+  text-align: center;
+  font-size: 50px;
+  font-family: Ostrich Sans;
 
 }
