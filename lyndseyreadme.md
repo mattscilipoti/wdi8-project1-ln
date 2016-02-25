@@ -7,5 +7,11 @@ once the function were created, I then added more javascript to made more intera
 -The game starts with a random question, which I player must answer. There's no need to insert an answer.
 -Once a player answer his/her question, they can reveal their answer by clicking the "Answer!" button ,and proceed to the next question with the "Next Question!" button.
 
-As a user, this app should be able to test a users knowledge of math. 
+User story
+Role:
+Goal:
+Reason:
+
 Just click the link and begin playing.
+
+ <!-- One of my unsolved problem is stoping the extra question and answer loop. -->
