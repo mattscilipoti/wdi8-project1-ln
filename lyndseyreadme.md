@@ -4,6 +4,12 @@ The approach I took was to break down each feature of the game.
 I defined the variable and created the functions that followed.
 once the function were created, I then added more javascript to made more interaction for each function.
 
+Technology used:
+-HTML
+-CSS
+-Javascript
+-DOM
+
 Overall
 -The game starts with a random question.
 -player must answer. There's no need to insert an answer.
