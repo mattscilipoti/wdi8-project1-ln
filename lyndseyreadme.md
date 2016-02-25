@@ -13,5 +13,5 @@ Overall
 
 
 Just click the link and begin playing.
-
+*This app will become a musical flash card app by the end of the cohort!
  <!-- One of my unsolved problem is stoping the extra question and answer loop. -->
